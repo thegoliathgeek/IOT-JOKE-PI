@@ -1,9 +1,12 @@
 import requests as req
 
-URL = 'https://nameless-falls-40724.herokuapp.com/'
 
-r=req.get(URL)
+class JokePi:
+    def __init__(self, Index, UID, URL):
+        self.Index = Index
+        self.UID = UID
+        self.URL = URL
 
-data=r.json()
-
-print(data)
+    def getjson(self):
+        r = req.get(self.URL)
+        print(r.json()[self.Index])
