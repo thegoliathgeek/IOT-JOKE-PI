@@ -7,6 +7,14 @@ class JokePi:
         self.UID = UID
         self.URL = URL
 
-    def getjson(self):
+    def getJsonByIndex(self):
         r = req.get(self.URL)
         print(r.json()[self.Index])
+
+    def getJson(self):
+        r = req.get(self.URL)
+        print(r.json())
+
+    def updatePlotData(self,Index,Id,x,y):
+        print(Index,Id,x,y)
+
