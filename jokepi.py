@@ -15,10 +15,13 @@ class JokePi:
         r = req.get(self.URL + self.UID)
         print(r.json())
 
-    def updatePlotData(self, Index, Id, x, y):
-        print(Index, Id, x, y)
+    def updatePlotData(self):
+        r = req.post(self.URL + self.UID + '/Sensor' + '/10' + '/200')
+        data = r.text
+        print(data)
 
     def testPost(self):
         r = req.post(self.URL + self.UID + '/Plots')
         data = r.text
         print(data)
+
