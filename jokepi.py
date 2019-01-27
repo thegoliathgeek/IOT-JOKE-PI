@@ -17,3 +17,8 @@ class JokePi:
 
     def updatePlotData(self, Index, Id, x, y):
         print(Index, Id, x, y)
+
+    def testPost(self):
+        r = req.post(self.URL + self.UID + '/Plots')
+        data = r.text
+        print(data)
