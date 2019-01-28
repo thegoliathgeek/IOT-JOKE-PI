@@ -3,8 +3,8 @@ Control your devices from IOT-JOKE by RasperryPi
 
 
 ## Install Required Libraries
-  `virtualenv env`
+  `$ virtualenv env`
   
-  `source env/bin/activate`
+  `$ source env/bin/activate`
   
-  `pip install -r requirements.txt`
+  `$ pip install -r requirements.txt`
