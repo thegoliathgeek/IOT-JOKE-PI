@@ -12,4 +12,4 @@ getOb = JokePi('Button', 'lVTnpCOeT6gcUXRmXdWjXFkn4H53', 'https://nameless-falls
 
 # updateOb.updatePlotData('Sensor 2', '30', '90')
 
-getOb.getSwitchState('Sensor 1')
+print(getOb.getSwitchState('Shiva'))

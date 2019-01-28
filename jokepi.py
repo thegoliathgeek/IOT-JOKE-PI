@@ -24,3 +24,4 @@ class JokePi:
         r = req.get(self.URL + self.UID + '/' + name)
         data = r.text
         return data
+
