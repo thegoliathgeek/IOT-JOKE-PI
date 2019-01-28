@@ -9,18 +9,18 @@ class JokePi:
 
     def getJsonByIndex(self):
         r = req.get(self.URL + self.UID)
-        print(r.json()[self.Index])
+        return (r.json()[self.Index])
 
     def getJson(self):
         r = req.get(self.URL + self.UID)
-        print(r.json())
+        return r.json()
 
     def updatePlotData(self, plotName, x, y):
         r = req.post(self.URL + self.UID + '/' + plotName + '/' + x + '/' + y)
         data = r.text
-        print(data)
+        return data
 
     def getSwitchState(self, name):
         r = req.get(self.URL + self.UID + '/' + name)
         data = r.text
-        print (data)
+        return data
