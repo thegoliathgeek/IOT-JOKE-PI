@@ -10,7 +10,7 @@ gp.setup(ledPin,gp.OUT)
 
 switchName=''
 
-getOb = JokePi('Button', '', 'https://nameless-falls-40724.herokuapp.com/api/getdata/')
+getOb = JokePi('Button', '', 'https://iot-joke-pi.herokuapp.com/api/getdata/')
 
 state = 'OFF'
 prev = 'OFF'
