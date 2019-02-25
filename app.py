@@ -13,8 +13,13 @@ getOb = JokePi('Button', ApiKey, Link + '/api/getdata/')
 
 # updateOb.updatePlotData('Sensor 2', '30', '90')
 
-data = getOb.getSwitchState('Fan')
+data = getOb.getSwitchState('Fann')
 
 # data = updateOb.updatePlotData('dazz','10','20')
 
-print(data)
+if data == 'ON':
+    print('Fan is ON')
+elif data == 'OFF':
+    print('Fan is OFF')
+else:
+    print('Invalid Device')
