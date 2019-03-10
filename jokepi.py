@@ -24,3 +24,8 @@ class JokePi:
         r = req.get(self.URL + self.UID + '/' + name)
         data = r.text
         return data
+
+    def updateString(self,value):
+        r = req.post(self.URL + self.UID + '/' + value)
+        data = r.text
+        return data
