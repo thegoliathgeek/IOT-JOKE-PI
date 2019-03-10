@@ -29,3 +29,8 @@ class JokePi:
         r = req.post(self.URL + self.UID + '/' + value)
         data = r.text
         return data
+
+    def getString(self):
+        r = req.get(self.URL + self.UID)
+        data = r.text
+        return data

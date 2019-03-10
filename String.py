@@ -3,9 +3,12 @@ from jokepi import JokePi
 ApiKey = ''
 Link = 'https://iot-joke-pi.herokuapp.com'
 
-obj = JokePi('String', ApiKey, Link + '/api/update/string/')
+UpdateObj = JokePi('String', ApiKey, Link + '/api/update/string/')
 
-k = obj.updateString('Dazz')
+RequestObj = JokePi('String', ApiKey, Link + '/api/request/string/')
 
+k = UpdateObj.updateString('Dazz')
 
-print(k)
+d = RequestObj.getString()
+
+print(d)
