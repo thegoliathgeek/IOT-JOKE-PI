@@ -2,7 +2,7 @@ from jokepi import JokePi
 import RPi.GPIO as gp
 import time
 ledPin=5
-userId=''
+ApiKey=''
 
 gp.setmode(gp.BOARD)
 
