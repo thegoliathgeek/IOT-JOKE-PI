@@ -1,5 +1,5 @@
 ## IOT JOKE PI
-Control your devices from [IOT-JOKE](http://oshop-ca3d1.firebaseapp.com) by RasperryPi
+Control your devices from [IOT-JOKE](https://iot-joker.firebaseapp.com) by RasperryPi
 
 ## Install Required Libraries
   `$ virtualenv env`

@@ -1,6 +1,6 @@
 from jokepi import JokePi
 
-ApiKey = ''
+ApiKey = 'TIORvO9WfJfrjbEEE6gP0BWoha93'
 Link = 'https://iot-joke-pi.herokuapp.com'
 
 RequestObj = JokePi('String', ApiKey, Link + '/api/request/string/')

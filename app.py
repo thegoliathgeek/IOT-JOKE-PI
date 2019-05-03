@@ -1,7 +1,7 @@
 from jokepi import JokePi
 
-ApiKey = 'MCv0RZ5tzNOHbQBobpZ6aqUIDbP2'
-Link = 'https://iot-joke-pi.herokuapp.com'
+ApiKey = 'IlIlkSIgnLh6ENTdhChKBWdSAWh1'
+Link = 'http://iot-joke-pi.herokuapp.com'
 # Instance to get JSON
 ob = JokePi('Buttons', ApiKey, Link + '/api/users/')
 
@@ -13,7 +13,7 @@ getOb = JokePi('Button', ApiKey, Link + '/api/getdata/')
 
 # updateOb.updatePlotData('Sensor 2', '30', '90')
 
-data = getOb.getSwitchState('Fann')
+data = getOb.getSwitchState('Motor1')
 
 # data = updateOb.updatePlotData('dazz','10','20')
 
