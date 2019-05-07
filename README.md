@@ -6,4 +6,4 @@ Control your devices from [IOT-JOKE](https://iot-joker.firebaseapp.com) by Raspe
   
   `$ source env/bin/activate`
   
-  `$ pip install -r requirements.txt`
+  `$ pip install -r requirements.txt --user`
