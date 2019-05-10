@@ -1,7 +1,7 @@
 import requests as req
 
 apiKey = ''
-url = 'https://iotjoke-pi.herokuapp.com'
+url = 'https://iotjokepi-pi.herokuapp.com'
 
 
 def wakeServer():
