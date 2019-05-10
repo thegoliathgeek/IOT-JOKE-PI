@@ -11,8 +11,8 @@ data1 = getOb.getSwitchState('Switch Name')
 data = data1
 
 if data == 'ON':
-    print('Fan is ON')
+    print('Switch is ON')
 elif data == 'OFF':
-    print('Fan is OFF')
+    print('Switch is OFF')
 else:
     print('Invalid Device')
