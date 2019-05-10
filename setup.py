@@ -1,9 +1,8 @@
-import platform
 from setuptools import setup
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 
-with open('README.md', 'r', encoding='utf-8') as f:
+with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(

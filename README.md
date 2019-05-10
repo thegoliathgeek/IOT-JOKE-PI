@@ -5,4 +5,4 @@ Control your devices from [IOT-JOKE](https://iot-joker.firebaseapp.com) by Raspe
    `pip install requests`
 
 ## Install IOT-JOKE-PI
-  `pip install pyiotjokepi`
+  `pip install pyiotjokepi --user`
