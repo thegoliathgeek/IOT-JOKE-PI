@@ -1,7 +1,7 @@
 from jokepi import JokePi
 
 ApiKey = 'IlIlkSIgnLh6ENTdhChKBWdSAWh1'
-Link = 'http://iot-joke-pi.herokuapp.com'
+Link = 'http://iotjoke-pi.herokuapp.com'
 # Instance to get JSON
 ob = JokePi('Buttons', ApiKey, Link + '/api/users/')
 
